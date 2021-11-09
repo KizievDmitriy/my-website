@@ -4,9 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git rule</title>
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
 <body>
+    <div class="wrapper">
+        <!-- contacts-section -->
+        <section class="contacts-section">
+            <a href="https://t.me/Dmitrii_Kiziev" class="telegram-link">
+                <img src="./img/icons/telegram-icon.svg" class="telegram-icon"alt="telegram-link">
+            </a>
+            <a href="https://invite.viber.com/?g=kg9wMH4cE06FhsEegtDf2DsNZV_uQg9f" class="viber-link">
+                <img src="./img/icons/viber-icon.svg" class="viber-icon"alt="viber-link">
+            </a>
+            <a href="tel:+380992632441" class="phone-link-icon">
+                <img src="./img/icons/phone-icon.svg" class="phone-icon"alt="phone-linc">
+            </a>
+            <a href="tel:+380992632441" class="phone-link-number">+380 99 263 24 41</a>
+        </section>
+
     
+        <!-- experience-section  -->
+
+        <section class="experience-section">
+        <img src="img/my-photo.jpg" alt="My photo" class="my-photo">
+            
+            <div >  
+                <a href="https://www.linkedin.com/in/dmitriy-kiziev-469991b9/" class="social-link">
+                <img src="./img/icons/linkedin-icon.svg"alt="My Linkedin link"class="linkedin-icon"class="icon">
+                </a>
+                <a href="https://m.facebook.com/kiziev.dmitrii"class="social-link" >
+                <img src="./img/icons/fb-icon.svg" alt="My Facebook link"class="facebok-icon"class="icon">
+                </a>  
+            
+            </div>
+            <div class="exp-description1">
+                <p class="exp-description-text" >10 готовых пректов</p>
+                <p class="exp-description-text" >+15 лет опыта</p>  
+                
+            </div>
+            <div class="tehnology-content">
+                <img src="./img/icons/fontisto_cocktail.svg" alt=""class="js-icon" >
+                <img src="./img/icons/fluent_drink-wine-24-filled.svg" alt=""class="react-icon">
+                <img src="./img/icons/fluent_drink-margarita-24-filled.svg" alt="">
+            </div>
+            <a class="my-projects-link" href="https://rojoojo.com.ua/">Мои работы</a>
+
+        </section>
+
+        <!-- my-info -->
+        <section class="my-info"> 
+            <h2 class="my-name">Привет! Я - Дмитрий Кизиев</h2> 
+
+            <h1 class="my-profetion">Я бар-менеджер.</h1>
+            <p class="my-location">Живу в Украине</p>
+            <p class="my-location2">Работаю в Киеве</p>
+            <p class="my-discription">Я-человек с большой эмпатией к людям.Ответственный, коммуникабельный, 
+            креативный.</p>
+                
+            <div>
+                <p class="my-skills-title">Умею</p>
+                <ul class="my-skills-list">
+                    <li class="my-skills-itm">
+                        <p class="my-skills-text" >
+                        Разрабатывать барную карту.</p>
+                    </li>
+                    <li class="my-skills-itm">
+                        <p class="my-skills-text" >
+                        Организовывать работу бара.</p>
+                    </li>
+                    <li class="my-skills-itm">
+                        <p class="my-skills-text">
+                        Контролировать соблюдение сотрудниками правил и норм компании.</p>
+                    </li>
+                    <li class="my-skills-itm">
+                        <p class="my-skills-text">
+                        Обучать барному делу.</p>
+                    </li>
+                </ul>
+
+            </div>
+            
+        </SEction>
+        <!-- Project-price-section -->
+
+        <section class="project-prise-section">
+
+             <form  class="project-prise-form" method="POST"  name="contact" data-netlify="true" id="project-prise-form"> 
+                <h4 class="project-prise-title">Расчитай стоимость проекта </h4>
+
+
+                <div class="project-type-container">
+                    <label for="project-type"class="project-prise-form-title">Тип заведения</label>
+                        <select name="project-type" id="project-type"class="project-prise-select">
+                            <option value="landing-page">Кофейня</option>
+                            <option value="online-store">Паб</option>
+                            <option value="web-application">Бар</option>
+                            <option selected value="mobile-application">Ресторан</option>
+
+                        </select>
+                </div>
+
+                <div class="activity-type-container">
+                    <p class="project-prise-form-title">Тип работ</p>
+
+                    <div class="activity-type-item">
+                     <input type="checkbox" name="Product-Management" id="Product-Management" class="activity-type-item-checkbox"> 
+                     <label for="Product-Management"class="activity-type-title">Разработка барной карты</label>
+                    </div>
+
+                    <div class="activity-type-item">
+                     <input type="checkbox" name="designe" id="designe" class="activity-type-item-checkbox">
+                     <label for="designe"class="activity-type-title">Контроль работы</label>
+                    </div>
+
+                    <div class="activity-type-item">
+                     <input type="checkbox" name="developer" id="developer" class="activity-type-item-checkbox">
+                     <label for="developer"class="activity-type-title">Организация работы</label>
+                    </div>
+
+                    <div class="activity-type-item">
+                     <input type="checkbox" name="qa" id="qa" class="activity-type-item-checkbox">
+                     <label for="qa"class="activity-type-title">Подбор и обучение персонала</label>
+                    </div>
+
+                    
+                        
+                    
+                </div>     
+
+               <div class="project-prise-conteiner">
+                 <p class="project-prise-form-title">Стоимость</p>
+                 <p class="project-prise-sum"><span class="project-prise-sum-currency">$</span> <span id="total-price">0</span> </p>
+               </div>
+
+               <input type="hidden" name="Email">
+
+                <div class="project-prise-calculate-btm-buttom">
+                    <button class="project-prise-calculate-buttom">Отправить запрос</button>
+                </div>
+
+             </form>
+        </section>
+    </div>
+
+    <!--  modal-section  -->
+
+    <div class="modal-bgd" id="modal-email">
+        <div class="modal-container">
+            <button class="modal-close-btm">
+                <img src="./img/icons/close-icon.svg" alt="close-icon">
+            </button>
+            <img src="./img/icons/mail-icon.svg" alt="mail-icon" class="modal-icon">
+            <h4 class="modal-title">Я cвяжусь с Вами на<br> протяжении ближайшего часа</h4>
+
+            <form action="#" class="modal-container-form" id="modal-email-container">
+                <div class="email-input-container" id="email-input-container">
+                    <label for="user-email" class="user-email-title">Email</label>
+                    <input type="email" name="user-email" id="user-email" class="user-email" placeholder="Укажите email">
+                    <p class="email-error-text">Проверьте правильность ввода</p>
+                    
+                </div>
+
+                <button type="submit" class="modal-submit-btm">Отправить</button> 
+            </form>
+
+        </div>  
+    </div> 
+    
+    <div class="modal-bgd" id="succsess-modal">
+        <div class="modal-container modal-container-succsess "> 
+            <button class="modal-close-btm">
+                <img src="./img/icons/close-icon.svg" alt="close icon">
+            </button>
+            <img src="./img/icons/success-icon.svg" alt="success-icon" class="modal-success-icon">
+
+            <p class="modal-success-massage">Ваше сообщение<br>отправлено</p> 
+
+        </div>
+
+    </div>
+            
+                
+
+    <Script src="./js/screept.js"></Script>
+
 </body>
 </html>
